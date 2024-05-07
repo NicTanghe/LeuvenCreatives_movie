@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"a61ff77e27615cb6","type":"text","text":"6+ Poten","x":600,"y":-360,"width":250,"height":60},
+		{"id":"4ef6418e13c79709","type":"text","text":"2 poten","x":-180,"y":-360,"width":250,"height":60},
+		{"id":"a1560dea8e37c89c","type":"text","text":"4 poten","x":220,"y":-360,"width":250,"height":60},
+		{"id":"e783c19508c5d900","type":"text","text":"Geen poten","x":960,"y":-350,"width":250,"height":50},
+		{"id":"f3236762572ffe83","type":"text","text":"## waal","x":-1040,"y":-140,"width":250,"height":60},
+		{"id":"dee7ded994a106d6","type":"text","text":"## Haan","x":-760,"y":-140,"width":250,"height":60},
+		{"id":"23153083c0929403","type":"text","text":"## Monster ?","x":400,"y":-560,"width":250,"height":50},
+		{"id":"5e471ed9f993d0e5","type":"text","text":"## cosmisch","x":1800,"y":-540,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"bbcea2b349b50939","fromNode":"23153083c0929403","fromSide":"bottom","toNode":"a1560dea8e37c89c","toSide":"top"},
+		{"id":"478bc07ab2de4121","fromNode":"23153083c0929403","fromSide":"bottom","toNode":"4ef6418e13c79709","toSide":"top"},
+		{"id":"c7b69533412d8d38","fromNode":"23153083c0929403","fromSide":"bottom","toNode":"a61ff77e27615cb6","toSide":"top"},
+		{"id":"e2c1c2e3b4da17d4","fromNode":"4ef6418e13c79709","fromSide":"bottom","toNode":"dee7ded994a106d6","toSide":"top"},
+		{"id":"22f10527167fb2da","fromNode":"4ef6418e13c79709","fromSide":"bottom","toNode":"f3236762572ffe83","toSide":"top"},
+		{"id":"43e953a0333e074f","fromNode":"e783c19508c5d900","fromSide":"top","toNode":"23153083c0929403","toSide":"bottom"}
+	]
+}

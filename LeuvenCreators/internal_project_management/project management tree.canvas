@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"2d56c970955a85d2","type":"text","text":"## inhouse tools and/or external tools","x":-260,"y":580,"width":520,"height":80},
+		{"id":"b5204d4c3a032abc","type":"text","text":"# inhouse platform","x":-680,"y":800,"width":379,"height":99},
+		{"id":"5fbd873349074f51","type":"text","text":"## goals\n\n- compatibility\n- setting standards\n- revieuw\n- overview\n- data sharing\n- knowledge base\n\n- central acces point\n- ...","x":-202,"y":0,"width":405,"height":360},
+		{"id":"eb9f672324fbebef","type":"text","text":"# external","x":497,"y":800,"width":379,"height":99},
+		{"id":"4cf550092c42574f","type":"text","text":"web platform","x":-1400,"y":1020,"width":250,"height":50},
+		{"id":"6d80e00c972922e9","type":"text","text":"good performace / more interop excecutable","x":-420,"y":1070,"width":420,"height":60},
+		{"id":"eabf0d028c9f78e0","type":"text","text":"do people want to program in c++ or rust ?","x":-335,"y":1250,"width":250,"height":60},
+		{"id":"652dab212d1b9aa5","type":"text","text":"yes","x":-524,"y":1430,"width":250,"height":60},
+		{"id":"06bbcb60b16a5091","type":"text","text":"no","x":-134,"y":1430,"width":250,"height":60},
+		{"id":"78410f7555009518","type":"text","text":"python could also work ","x":-335,"y":1550,"width":250,"height":60},
+		{"id":"53aa05197c0490f8","type":"text","text":"## goals\n\n- compatibility\n- standards\n\t[fountain]([fountain](https://fountain.io/))\n- revieuw\n    [openrv](https://github.com/AcademySoftwareFoundation/OpenRV)\n      [Xstudio](https://github.com/AcademySoftwareFoundation/xstudio) (no mac)(questionable win)\n- overview\n    [ftrack](https://www.ftrack.com/en/)\n    [shutgun](https://www.autodesk.com/products/flow-production-tracking/overview?term=1-YEAR&tab=subscription)\n\t[kitsu](https://www.cg-wire.com/kitsu)\n\t[prism](https://prism-pipeline.com/docs/latest/gettingStarted/insideDCCs/)\n- data sharing \n  [owncloud](https://owncloud.com/)\n  resolve cloud \n- knowledge base\n   [obsidian](https://obsidian.md/)\n   [milanote](https://milanote.com/)\n\n- central acces point\n- ...","x":449,"y":1080,"width":476,"height":540},
+		{"id":"d19560fcb6d8c5b3","type":"text","text":"## goals\n\n- central acces point\n\tincase we end up using mostly external programs it whould stil be great to have a central website to acces upload all the files in a structured way\n\t\n- overview\n  i generally think having some sort of structured central acces point where evryone can upload files and check the statuses / aprovals as well as collect feedback from clients ects.\n  SOmething like the software below but not 30 euros per person per month +extra for storage\n    [ftrack](https://www.ftrack.com/en/)\n    [shutgun](https://www.autodesk.com/products/flow-production-tracking/overview?term=1-YEAR&tab=subscription)\n\t[kitsu](https://www.cg-wire.com/kitsu)\n\t[prism](https://prism-pipeline.com/docs/latest/gettingStarted/insideDCCs/)\n- compatibility\n- standards\n\t[fountain]([fountain](https://fountain.io/))\n- revieuw (whould be have some kind if interop but probably not possible)\n    [openrv](https://github.com/AcademySoftwareFoundation/OpenRV)\n      [Xstudio](https://github.com/AcademySoftwareFoundation/xstudio) (no mac)(questionable win)\n- data sharing \n  [owncloud](https://owncloud.com/)\n  [resolve DB]\n- knowledge base\n\t\tez markdown blogposts ? or with standard things?\n\t\tautlinking with double [] ?\n\t\tmindmap thing?\n- ...\n- be linked to client facing website for revieuw process\n- acces management","x":-1513,"y":1160,"width":476,"height":1060},
+		{"id":"8f944b22b2583b55","type":"file","file":"internal_project_management/Standardize project management.md","x":-197,"y":-600,"width":400,"height":240},
+		{"id":"3be7bf04aa9f8ad6","x":1020,"y":-510,"width":250,"height":60,"type":"text","text":"## hardware"},
+		{"id":"6c84b04d76205dba","x":873,"y":-220,"width":545,"height":80,"type":"text","text":"-10TB + 8core 32 Gig ram server (1X) (+- 75 Mbps upload)"}
+	],
+	"edges":[
+		{"id":"2b5aec944ec0225d","fromNode":"8f944b22b2583b55","fromSide":"bottom","toNode":"5fbd873349074f51","toSide":"top"},
+		{"id":"4433a2476286428a","fromNode":"5fbd873349074f51","fromSide":"bottom","toNode":"2d56c970955a85d2","toSide":"top"},
+		{"id":"fd6fce90e68ab74c","fromNode":"2d56c970955a85d2","fromSide":"left","toNode":"b5204d4c3a032abc","toSide":"top"},
+		{"id":"37bc32968bf54d3f","fromNode":"2d56c970955a85d2","fromSide":"right","toNode":"eb9f672324fbebef","toSide":"top"},
+		{"id":"71968db6b117051f","fromNode":"b5204d4c3a032abc","fromSide":"left","toNode":"4cf550092c42574f","toSide":"top"},
+		{"id":"c6b440fccb33d68a","fromNode":"b5204d4c3a032abc","fromSide":"right","toNode":"6d80e00c972922e9","toSide":"top"},
+		{"id":"cacd81754f146d8e","fromNode":"6d80e00c972922e9","fromSide":"bottom","toNode":"eabf0d028c9f78e0","toSide":"top"},
+		{"id":"e4d468a637e17413","fromNode":"eabf0d028c9f78e0","fromSide":"bottom","toNode":"652dab212d1b9aa5","toSide":"top"},
+		{"id":"1b0a4ed3348e45af","fromNode":"eabf0d028c9f78e0","fromSide":"bottom","toNode":"06bbcb60b16a5091","toSide":"top"},
+		{"id":"f0666307f4af9f24","fromNode":"eabf0d028c9f78e0","fromSide":"bottom","toNode":"78410f7555009518","toSide":"top"},
+		{"id":"1f0836a8435200d5","fromNode":"eb9f672324fbebef","fromSide":"bottom","toNode":"53aa05197c0490f8","toSide":"top"},
+		{"id":"0aa6dd82341b0fd7","fromNode":"4cf550092c42574f","fromSide":"bottom","toNode":"d19560fcb6d8c5b3","toSide":"top"},
+		{"id":"425e15a46a7b0dab","fromNode":"3be7bf04aa9f8ad6","fromSide":"left","toNode":"8f944b22b2583b55","toSide":"right"},
+		{"id":"bbe978b98652203c","fromNode":"3be7bf04aa9f8ad6","fromSide":"bottom","toNode":"6c84b04d76205dba","toSide":"top"}
+	]
+}
